@@ -2,7 +2,7 @@
 
 ## Live Site Link
 
-[Click here to go live]("Ramadan Iftari")
+[Visit Website](https://thriving-sawine-2a6815.netlify.app/ "Ramadan Iftari")
 
 
 
