@@ -2,7 +2,7 @@
 
 ## Live Site Link
 
-Live site: [Click here to go live site]()
+[Click here to go live]()
 
 
 
