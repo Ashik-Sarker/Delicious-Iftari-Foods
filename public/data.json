@@ -1,0 +1,74 @@
+[
+        {
+            "id": 1,
+            "name": "Tikka Samosa",
+            "img": "images/Tikka-Samosa.jpg",
+            "price": 50
+        },
+        {
+            "id": 2,
+            "name": "beef-nihari",
+            "img": "images/beef-nihari.jpg",
+            "price": 200
+        },
+        {
+            "id": 3,
+            "name": "biriani",
+            "img": "images/biriani.jpg",
+            "price": 220
+        },
+        {
+            "id": 4,
+            "name": "chicken-biriani",
+            "img": "images/chicken-biriani.png",
+            "price": 180
+        },
+        {
+            "id": 5,
+            "name": "Full-chicken-kabab",
+            "img": "images/Full-chicken-kabab.jpeg",
+            "price": 300
+        },
+        {
+            "id": 6,
+            "name": "Chicken-pakoda",
+            "img": "images/Chicken-pakoda.jpg",
+            "price": 60
+        },
+        {
+            "id": 7,
+            "name": "chicken-shami-kabab",
+            "img": "images/chicken-shami-kabab.jpg",
+            "price": 120
+        },
+        {
+            "id": 8,
+            "name": "crispy-fried-chicken",
+            "img": "images/crispy-fried-chicken.jpg",
+            "price": 110
+        },
+        {
+            "id": 9,
+            "name": "fried-potatoo",
+            "img": "images/fried-potatoo.jpg",
+            "price": 80
+        },
+        {
+            "id": 10,
+            "name": "zilapi",
+            "img": "images/zilapi.jpg",
+            "price": 220
+        },
+        {
+            "id": 11,
+            "name": "sheek-kabab",
+            "img": "images/sheek-kabab.jpg",
+            "price": 120
+        },
+        {
+            "id": 12,
+            "name": "Singara",
+            "img": "images/Singara.jpg",
+            "price": 20
+        }
+    ]
