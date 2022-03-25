@@ -15,18 +15,37 @@ const Shop = () => {
     }, [])
     
     const addProductToCart = pro => {
-        const newProduct = [...selectedProduct, pro];
-        setSelectedProduct(newProduct);
-        // console.log(newProduct);
+        const found = selectedProduct.find(element => element.id === pro.id);
+        if (found) {
+            console.log("alert");
+            alert("You already select this item");
+        }
+        else if (selectedProduct.length >= 4) {
+            alert("You already select 4 item");
+        }
+        else {  
+            const newProduct = [...selectedProduct, pro];
+            setSelectedProduct(newProduct);
+        }
     }
 
     const randomMenuGenerator = (arr) => {
         const res = arr[Math.floor(Math.random() * arr.length)];
         setSelectedProduct([res]);
+        console.log(res);
         // alert("this is for You " + " " + res.name)
     }
+
     const choseAgain = () => {
         setSelectedProduct([]);
+    }
+
+    const deleteItem = (item) => {
+        console.log("its calling");
+
+        const findingItem = selectedProduct.filter(p => p.id !== item.id);
+        setSelectedProduct(findingItem);
+        console.log(findingItem);
     }
 
     return (
@@ -49,7 +68,8 @@ const Shop = () => {
                 <Cart
                     selectedProduct={selectedProduct}
                     randomMenuGenerator={randomMenuGenerator}
-                    choseAgain = {choseAgain}
+                    choseAgain={choseAgain}
+                    deleteItem = {deleteItem}
                 ></Cart>
             </div>
         </div>
