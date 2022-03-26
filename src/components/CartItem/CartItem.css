@@ -13,10 +13,10 @@
 }
 
 .cartItem img,p,button{
-    margin-right: 30px;
+    margin-right: 20px;
 }
 .cartItem>img{
-    width: 150px;
+    width: 50%px;
     height: 60px;
 }
 .cartItem>p {
@@ -24,7 +24,7 @@
     font-weight: 600;
 }
 .cartItem>button {
-    width: 70px;
+    width: 20%;
     height: 30px;
     border: none;
     border-radius: 5px;

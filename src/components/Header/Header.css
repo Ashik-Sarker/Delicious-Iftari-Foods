@@ -2,4 +2,9 @@
 
 .header{
     text-align: center;
+    background-color: rgba(252, 210, 171, 0.473);
+    color: rgb(255, 102, 0);
+    padding: 5px;
+    margin-bottom: 0px;
+    /* font-size: 1.5rem; */
 }
